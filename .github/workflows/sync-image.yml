@@ -38,4 +38,4 @@ jobs:
         # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
          #skopeo copy docker://docker.io/mysql:5.6 docker://crpi-1j6237ak4ulxqurp.cn-beijing.personal.cr.aliyuncs.com/raobin2024/mysql:latest
          #skopeo copy docker://docker.io/nginx:latest docker://crpi-1j6237ak4ulxqurp.cn-beijing.personal.cr.aliyuncs.com/raobin2024/nginx:latest
-         skopeo copy docker://docker.io/iabsdocker/gitlab-ce:latest docker://crpi-1j6237ak4ulxqurp.cn-beijing.personal.cr.aliyuncs.com/raobin2024/gitlab-ce:latest
+         skopeo copy docker://docker.io/gitlab-ce:latest docker://crpi-1j6237ak4ulxqurp.cn-beijing.personal.cr.aliyuncs.com/raobin2024/gitlab-ce:latest
